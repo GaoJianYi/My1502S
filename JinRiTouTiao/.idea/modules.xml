@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/JinRiTouTiao.iml" filepath="$PROJECT_DIR$/JinRiTouTiao.iml" />
       <module fileurl="file://$PROJECT_DIR$/XListView/XListView.iml" filepath="$PROJECT_DIR$/XListView/XListView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycehua/mycehua.iml" filepath="$PROJECT_DIR$/mycehua/mycehua.iml" />
     </modules>
   </component>
 </project>
