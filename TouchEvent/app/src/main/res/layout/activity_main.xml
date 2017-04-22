@@ -1,0 +1,17 @@
+<application.cartoon.com.touchevent.BanZhangFragmeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ff00" >
+
+    <application.cartoon.com.touchevent.ZuZhangRelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="#ff0000" >
+        <application.cartoon.com.touchevent.ZuYuanTextView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="#0000ff"
+            android:text="Hello" />
+    </application.cartoon.com.touchevent.ZuZhangRelativeLayout>
+
+</application.cartoon.com.touchevent.BanZhangFragmeLayout>
