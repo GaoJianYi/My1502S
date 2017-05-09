@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
 
     <TextView
-        android:padding="10dp"
         android:text="地点名："
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="33dp"
-        android:id="@+id/t1" />
+        android:id="@+id/textView" />
 
     <TextView
-        android:padding="10dp"
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:id="@+id/list_t2" />
+
+    <TextView
         android:text="地点："
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/t1"
-        android:layout_alignStart="@+id/t1"
-        android:id="@+id/t2" />
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:id="@+id/list_t3" />
 
     <TextView
-        android:padding="10dp"
         android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tt2"
-        android:layout_below="@+id/t1"
-        android:layout_toEndOf="@+id/t2" />
-
-    <TextView
-        android:padding="10dp"
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tt1"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/t1" />
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/list_t3"
+        android:id="@+id/list_t4" />
 </RelativeLayout>

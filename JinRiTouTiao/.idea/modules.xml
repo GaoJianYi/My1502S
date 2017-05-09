@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/XListView/XListView.iml" filepath="$PROJECT_DIR$/XListView/XListView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycehua/mycehua.iml" filepath="$PROJECT_DIR$/mycehua/mycehua.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myjinritoutiao/myjinritoutiao.iml" filepath="$PROJECT_DIR$/myjinritoutiao/myjinritoutiao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myzoukaoyi/myzoukaoyi.iml" filepath="$PROJECT_DIR$/myzoukaoyi/myzoukaoyi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zoukaoa/zoukaoa.iml" filepath="$PROJECT_DIR$/zoukaoa/zoukaoa.iml" />
     </modules>
   </component>
 </project>
