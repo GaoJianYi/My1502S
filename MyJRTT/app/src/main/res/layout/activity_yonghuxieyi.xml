@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yonghuxieyi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="此处省略N多字"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/f4_tiaokuang_tou"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/f4_tiaokuang_tiaokuang" />
+
+    <CheckBox
+        android:text="同意条款"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:id="@+id/f4_tiaokuang_checkBox"
+        android:layout_above="@+id/f4_tiaokuang_xiayibu"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:background="#ff0045"
+        android:text="下一步"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/f4_tiaokuang_xiayibu"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:background="#ff0045"
+        android:text="用户协议"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/f4_tiaokuang_tou"
+        android:layout_below="@+id/f4_tiaokuang_rl"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:id="@+id/f4_tiaokuang_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今日头条用户协议"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/f4_tiaokuang_immage_zuo" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/f4_tiaokuang_immage_you" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/shiping_text"
+        android:gravity="center"
+        android:text="视屏"
+        android:textSize="25dp"
+        android:background="#ff0045"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <ListView
+        android:id="@+id/listview"
+        android:layout_below="@id/shiping_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</RelativeLayout>

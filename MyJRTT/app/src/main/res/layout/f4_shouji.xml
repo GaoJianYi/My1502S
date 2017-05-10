@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/f4_rl2"
+        android:padding="2dp"
+        android:background="#ff000d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_alignTop="@+id/f4_rl1"
+        android:layout_alignEnd="@+id/f4_rl1"
+        >
+        <Button
+            android:text="新注册账号"
+            android:background="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"/>
+    </RelativeLayout>
+
+    <TextView
+        android:textColor="#FFADAFAB"
+        android:text="登录你的头条，精彩永不丢失"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:id="@+id/f4_tv_toutiao" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="请输入验证码"
+        android:layout_below="@+id/f4_edt_shouji"
+        android:layout_alignStart="@+id/f4_edt_shouji"
+        android:id="@+id/f4_edt_mima"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="发送验证码"
+        android:layout_height="wrap_content"
+        android:id="@+id/f4_fasong_yanzhengma"
+        android:layout_alignBaseline="@+id/f4_edt_shouji"
+        android:layout_alignBottom="@+id/f4_edt_shouji"
+        android:layout_toEndOf="@+id/f4_tv_toutiao"
+        android:layout_width="100dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="手机号"
+        android:ems="10"
+        android:layout_marginTop="75dp"
+        android:id="@+id/f4_edt_shouji"
+        android:layout_below="@+id/f4_tv_toutiao"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:id="@+id/f4_rl1"
+        android:padding="2dp"
+        android:background="#ff000d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/f4_edt_mima"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:text="手机号登录"
+            android:background="#ff000d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/f4_shouji_denl" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="——  其他登录方式  ——"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/f4_rl2"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

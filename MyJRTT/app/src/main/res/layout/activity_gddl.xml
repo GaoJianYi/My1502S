@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_gddl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/leftbackbutton_titlebar_normal"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_xiaohui" />
+    <Button
+        android:id="@+id/shoujihao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#DC143C"
+        android:text="手机号登录"
+        android:textColor="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/zhucexinzhanghu" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="登录今日头条"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/ttt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ttttt"/>
+
+    <Button
+        android:id="@+id/zhucexinzhanghu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="注册新账户"
+        android:textColor="#DC143C"
+        android:layout_below="@+id/shoujihao"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/qt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------  其他方式登录  -----------------"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/zhucexinzhanghu"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/dl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="37dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/account_icon_qzone"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/account_icon_weibo"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/account_icon_tencent"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/account_icon_renren"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

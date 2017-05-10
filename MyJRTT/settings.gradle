@@ -1,0 +1,1 @@
+include ':app', ':XListView', ':mydd', ':magicindicator', ':myapplication', ':citypicker', ':mycitypicker'

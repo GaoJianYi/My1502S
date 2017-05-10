@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:id="@+id/f4_rl"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    android:background="@drawable/ahe"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/w1"
+        android:id="@+id/f4_image_image"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="登录推荐更精准"
+        android:textColor="#FFADAFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/f4_textet_text_1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/f4_shouji"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/ya"
+            android:gravity="center"
+            />
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/f4_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/a_v"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/f4_xinglang"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/ach"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:id="@+id/f4_ll"
+        android:orientation="horizontal"
+        android:layout_below="@id/f4_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/f4_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/f4_shouchang"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:text="收藏"
+            />
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/f4_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/f4_yejian"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:text="夜间"
+            />
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/f4_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/f4_shezhi"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:text="系统设置"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/f4_textet1_meiyong"
+        android:layout_below="@id/f4_ll"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="#c7c7c7"
+        />
+    <ListView
+        android:id="@+id/f4_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/f4_textet1_meiyong"></ListView>
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_shoujihaodenglu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="登录今日头条"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/sjh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:ems="8"
+        android:hint="请输入手机号"/>
+
+    <EditText
+        android:id="@+id/mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sjh"
+        android:layout_centerHorizontal="true"
+        android:ems="8"
+        android:hint="请输入密码"
+        />
+
+    <Button
+        android:background="@color/white"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/zhuce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mm"
+        android:text="注册帐号"/>
+    <Button
+        android:id="@+id/wangjimima"
+        android:layout_marginRight="90dp"
+        android:background="@color/white"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mm"
+        android:text="忘记密码"/>
+
+    <Button
+        android:id="@+id/shouji_denglu"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:textColor="@color/red"
+        android:layout_below="@+id/wangjimima"
+        android:text="登录"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/leftbackbutton_titlebar_normal"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_shoujiden"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

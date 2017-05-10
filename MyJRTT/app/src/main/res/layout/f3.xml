@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:text="我的关注"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/f3_myguanzhu" />
+
+    <Button
+        android:id="@+id/f3_jia"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/addicon_titlebar_topic_normal"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <LinearLayout
+
+    android:id="@+id/f3_ll"
+    android:layout_below="@id/f3_myguanzhu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/f3_haoyou_image"
+        android:src="@mipmap/blacklist_popup_profile_night"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/haoyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="好友动态"
+        />
+
+
+
+</LinearLayout>
+
+    <ListView
+        android:id="@+id/f3_lv"
+        android:layout_below="@+id/f3_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</RelativeLayout>
