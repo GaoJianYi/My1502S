@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:text="否"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ttt1"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/xz_btton2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/xz_button" />
+
+    <TextView
+        android:text="是否选择打开WiFi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ttt1"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_toEndOf="@+id/imageButton"
+        android:layout_marginBottom="17dp" />
+
+    <Button
+        android:text="是"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/xz_button"
+        android:layout_alignBaseline="@+id/xz_btton2"
+        android:layout_alignBottom="@+id/xz_btton2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="83dp" />
+</RelativeLayout>
