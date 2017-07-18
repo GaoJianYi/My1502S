@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="test.bwie.com.mygj.MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:textSize="25dp"
+            android:gravity="center_vertical"
+            android:text="......"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_dian"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/textView_count"
+            />
+        <TextView
+            android:layout_toStartOf="@+id/iv"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="共计0人"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_count"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true" />
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/iv"
+            android:src="@drawable/adp"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#7c7c7c"
+            android:id="@+id/textView_xian" />
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="55dp"
+    android:layout_toStartOf="@+id/text_dian">
+    <include layout="@layout/include"/>
+</RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_toStartOf="@+id/iv">
+</RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+    android:visibility="invisible"
+    android:id="@+id/My_relativeLayout"
+    android:gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="160dp"
+    android:layout_alignParentEnd="true"
+    >
+        <test.bwie.com.mygj.ExpandView
+            android:id="@+id/expandView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:clickable="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:id="@+id/iv1"
+            android:src="@drawable/adp"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/expandView"
+            android:layout_alignBottom="@+id/expandView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/My_template">
+    <include layout="@layout/include_text" />
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_below="@id/My_template"
+    android:layout_alignParentStart="true"
+    android:id="@+id/My_template_count">
+    <EditText
+        android:background="@null"
+        android:hint="输入信息内容"
+        android:maxEms="350"
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:text="0/350"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/countText" />
+</RelativeLayout>
+
+
+</LinearLayout>

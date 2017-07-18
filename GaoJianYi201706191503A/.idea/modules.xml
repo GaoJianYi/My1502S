@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GaoJianYi201706191503A.iml" filepath="$PROJECT_DIR$/GaoJianYi201706191503A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowlayout-lib/flowlayout-lib.iml" filepath="$PROJECT_DIR$/flowlayout-lib/flowlayout-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybaidu/mybaidu.iml" filepath="$PROJECT_DIR$/mybaidu/mybaidu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybpp/mybpp.iml" filepath="$PROJECT_DIR$/mybpp/mybpp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mydom_shousuo/mydom_shousuo.iml" filepath="$PROJECT_DIR$/mydom_shousuo/mydom_shousuo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mygj/mygj.iml" filepath="$PROJECT_DIR$/mygj/mygj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myzdy_ss/myzdy_ss.iml" filepath="$PROJECT_DIR$/myzdy_ss/myzdy_ss.iml" />
+    </modules>
+  </component>
+</project>
